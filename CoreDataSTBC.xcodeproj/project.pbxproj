@@ -11,8 +11,7 @@
 		8429D42C27F0B6FB005A2710 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429D42B27F0B6FB005A2710 /* ContentView.swift */; };
 		8429D42E27F0B6FD005A2710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429D42D27F0B6FD005A2710 /* Assets.xcassets */; };
 		8429D43127F0B6FD005A2710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429D43027F0B6FD005A2710 /* Preview Assets.xcassets */; };
-		8429D43327F0B6FD005A2710 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429D43227F0B6FD005A2710 /* Persistence.swift */; };
-		8429D43627F0B6FD005A2710 /* CoreDataSTBC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8429D43427F0B6FD005A2710 /* CoreDataSTBC.xcdatamodeld */; };
+		8495829527F1BC9B006EA3C0 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8495829327F1BC9B006EA3C0 /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +20,7 @@
 		8429D42B27F0B6FB005A2710 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8429D42D27F0B6FD005A2710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8429D43027F0B6FD005A2710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8429D43227F0B6FD005A2710 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		8429D43527F0B6FD005A2710 /* CoreDataSTBC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSTBC.xcdatamodel; sourceTree = "<group>"; };
+		8495829427F1BC9B006EA3C0 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +55,8 @@
 			children = (
 				8429D42927F0B6FB005A2710 /* CoreDataSTBCApp.swift */,
 				8429D42B27F0B6FB005A2710 /* ContentView.swift */,
+				8495829327F1BC9B006EA3C0 /* FruitsContainer.xcdatamodeld */,
 				8429D42D27F0B6FD005A2710 /* Assets.xcassets */,
-				8429D43227F0B6FD005A2710 /* Persistence.swift */,
-				8429D43427F0B6FD005A2710 /* CoreDataSTBC.xcdatamodeld */,
 				8429D42F27F0B6FD005A2710 /* Preview Content */,
 			);
 			path = CoreDataSTBC;
@@ -143,8 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8429D43627F0B6FD005A2710 /* CoreDataSTBC.xcdatamodeld in Sources */,
-				8429D43327F0B6FD005A2710 /* Persistence.swift in Sources */,
+				8495829527F1BC9B006EA3C0 /* FruitsContainer.xcdatamodeld in Sources */,
 				8429D42C27F0B6FB005A2710 /* ContentView.swift in Sources */,
 				8429D42A27F0B6FB005A2710 /* CoreDataSTBCApp.swift in Sources */,
 			);
@@ -349,13 +345,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8429D43427F0B6FD005A2710 /* CoreDataSTBC.xcdatamodeld */ = {
+		8495829327F1BC9B006EA3C0 /* FruitsContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8429D43527F0B6FD005A2710 /* CoreDataSTBC.xcdatamodel */,
+				8495829427F1BC9B006EA3C0 /* FruitsContainer.xcdatamodel */,
 			);
-			currentVersion = 8429D43527F0B6FD005A2710 /* CoreDataSTBC.xcdatamodel */;
-			path = CoreDataSTBC.xcdatamodeld;
+			currentVersion = 8495829427F1BC9B006EA3C0 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
